@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason's Barbershop | Book Your Cut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="wrap nav">
+        <a class="brand" href="#home">JASON'S <span>BARBERSHOP</span></a>
+
+        <nav class="navlinks">
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#barbers">Our Barbers</a>
+            <a href="#booking">Book Now</a>
+        </nav>
+
+        <a class="btn" href="#booking">BOOK A CUT</a>
+    </div>
+</header>
+
+<main>
+
+<section class="wrap hero" id="home">
+    <div>
+        <div class="eyebrow">Look sharp. Feel confident.</div>
+        <h1>A FRESH CUT.<br><em>A FRESH START.</em></h1>
+        <p>Good cuts, good service, and a chair waiting for you. Find your style at Jason's Barbershop.</p>
+
+        <div class="actions">
+            <a class="btn" href="#booking">Book an appointment</a>
+            <a class="btn btn-outline" href="#services">Explore services</a>
+        </div>
+    </div>
+
+    <div class="hero-art">
+        <div class="art-label">EST. JASON'S BARBERSHOP · CLASSIC CRAFT</div>
+    </div>
+</section>
+
+<section id="services">
+    <div class="wrap">
+        <div class="section-head">
+            <div>
+                <div class="eyebrow">The menu</div>
+                <h2>Services & Prices</h2>
+            </div>
+            <p>Choose a service that suits your style. Prices below are sample prices and can be changed to match the shop's actual menu.</p>
+        </div>
+
+        <div class="cards">
+            <article class="card">
+                <div class="symbol">✂</div>
+                <div class="tag">Classic</div>
+                <h3>Regular Haircut</h3>
+                <p>A clean, everyday cut tailored to your preference.</p>
+                <div class="price">₱100</div>
+            </article>
+
+            <article class="card">
+                <div class="symbol">◈</div>
+                <div class="tag">Detail work</div>
+                <h3>Fade Haircut</h3>
+                <p>A neat fade with a smooth blend and sharp finish.</p>
+                <div class="price">₱150</div>
+            </article>
+
+            <article class="card">
+                <div class="symbol">✦</div>
+                <div class="tag">Grooming</div>
+                <h3>Haircut + Shave</h3>
+                <p>A haircut paired with a tidy beard or mustache trim.</p>
+                <div class="price">₱200</div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="wrap about-grid">
+        <div>
+            <div class="eyebrow">More than a haircut</div>
+            <h2 class="about-title">Your neighborhood spot for a sharper look.</h2>
+            <p class="muted">At Jason's Barbershop, the goal is simple: make every visit comfortable and every customer leave feeling confident. Whether you want a classic trim or a fresh new style, tell us what you're after.</p>
+            <a class="btn" href="#booking">Visit us by appointment</a>
+        </div>
+
+        <div class="about-box">
+            <div class="tag">The Jason's experience</div>
+            <strong>Personal service.<br>Attention to detail.</strong>
+            <p>Friendly service, straightforward prices, and cuts shaped around what you want. Walk in when available or send an appointment request online.</p>
+        </div>
+    </div>
+</section>
+
+<section id="barbers">
+    <div class="wrap">
+        <div class="section-head">
+            <div>
+                <div class="eyebrow">The team</div>
+                <h2>Meet the Barbers</h2>
+            </div>
+            <p>Meet the people behind the chair. Replace these sample profiles with the shop's real staff and schedules.</p>
+        </div>
+
+        <div class="barbers">
+            <article class="barber">
+                <div class="avatar">✂</div>
+                <h3>Jason</h3>
+                <p>Owner / Master Barber</p>
+            </article>
+
+            <article class="barber">
+                <div class="avatar">♛</div>
+                <h3>Barber 2</h3>
+                <p>Haircut Specialist</p>
+            </article>
+
+            <article class="barber">
+                <div class="avatar">✦</div>
+                <h3>Barber 3</h3>
+                <p>Grooming Specialist</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="booking">
+    <div class="wrap">
+        <div class="section-head">
+            <div>
+                <div class="eyebrow">Save your spot</div>
+                <h2>Book an Appointment</h2>
+            </div>
+            <p>Send an appointment request. The shop can contact you to confirm the schedule.</p>
+        </div>
+
+        <div class="booking">
+            <aside class="booking-info">
+                <div class="tag">Plan your visit</div>
+                <h3>Ready for a fresh cut?</h3>
+                <p>Fill out the form with your preferred service, barber, and schedule.</p>
+
+                <p>
+                    <strong>Opening hours</strong><br>
+                    Monday – Saturday<br>
+                    9:00 AM – 7:00 PM
+                </p>
+
+                <p>
+                    <strong>Location</strong><br>
+                    Add the shop's complete address here.
+                </p>
+
+                <p class="notice">Demo information: confirm the actual opening hours, address, and contact details with the owner.</p>
+            </aside>
+
+            <form id="bookingForm">
+                <div>
+                    <label for="name">Full name *</label>
+                    <input id="name" name="name" required placeholder="Your name">
+                </div>
+
+                <div>
+                    <label for="phone">Contact number *</label>
+                    <input id="phone" name="phone" required type="tel" placeholder="09XX XXX XXXX">
+                </div>
+
+                <div>
+                    <label for="service">Service *</label>
+                    <select id="service" name="service" required>
+                        <option value="">Choose a service</option>
+                        <option>Regular Haircut - ₱100</option>
+                        <option>Fade Haircut - ₱150</option>
+                        <option>Haircut + Shave - ₱200</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="barber">Preferred barber</label>
+                    <select id="barber" name="barber">
+                        <option>Any available barber</option>
+                        <option>Jason</option>
+                        <option>Barber 2</option>
+                        <option>Barber 3</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="date">Preferred date *</label>
+                    <input id="date" name="date" type="date" required>
+                </div>
+
+                <div>
+                    <label for="time">Preferred time *</label>
+                    <select id="time" name="time" required>
+                        <option value="">Choose a time</option>
+                        <option>9:00 AM</option>
+                        <option>10:00 AM</option>
+                        <option>11:00 AM</option>
+                        <option>1:00 PM</option>
+                        <option>2:00 PM</option>
+                        <option>3:00 PM</option>
+                        <option>4:00 PM</option>
+                        <option>5:00 PM</option>
+                        <option>6:00 PM</option>
+                    </select>
+                </div>
+
+                <div class="full">
+                    <label for="notes">Additional notes (optional)</label>
+                    <textarea id="notes" name="notes" placeholder="Tell us if you have a preferred haircut style..."></textarea>
+                </div>
+
+                <div class="full">
+                    <button class="btn" type="submit">Send appointment request</button>
+                    <p class="notice">This is a front-end school project demo. It does not send or save bookings to a real shop.</p>
+                </div>
+
+                <div id="message" role="status"></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <div class="wrap foot">
+        <div>
+            <strong>JASON'S BARBERSHOP</strong><br>
+            Look sharp. Feel confident.
+        </div>
+        <div>© 2026 Jason's Barbershop · Student project demo</div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
